@@ -1,9 +1,9 @@
 package view;
 
-import model.user;
+import model.User;
 
 import java.io.IOException;
 
 public interface UserProvider {
-    user newUser() throws IOException;
+    User newUser() throws IOException;
 }

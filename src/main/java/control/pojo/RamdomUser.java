@@ -22,7 +22,11 @@ public class RamdomUser {
         return picture;
     }
 
-    public record Name(String title, String first, String Last) {}
+    public record Name(String title, String first, String Last) {
+        public String last() {
+            return Last;
+        }
+    }
 
     public record Picture(String large, String medium, String thumbnail) {}
 }

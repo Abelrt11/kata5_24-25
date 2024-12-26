@@ -1,6 +1,6 @@
 package model;
 
-public class user {
+public class User {
     public enum Gender {Male, Female}
 
     private String name;
@@ -13,7 +13,7 @@ public class user {
         return name;
     }
 
-    public user setName(String name) {
+    public User setName(String name) {
         this.name = name;
         return this;
     }
@@ -22,7 +22,7 @@ public class user {
         return surname;
     }
 
-    public user setSurname(String surname) {
+    public User setSurname(String surname) {
         this.surname = surname;
         return this;
     }
@@ -31,7 +31,7 @@ public class user {
         return email;
     }
 
-    public user setEmail(String email) {
+    public User setEmail(String email) {
         this.email = email;
         return this;
     }
@@ -40,7 +40,7 @@ public class user {
         return gender;
     }
 
-    public user setGender(Gender gender) {
+    public User setGender(Gender gender) {
         this.gender = gender;
         return this;
     }
@@ -49,7 +49,7 @@ public class user {
         return photo;
     }
 
-    public user setPhoto(byte[] photo) {
+    public User setPhoto(byte[] photo) {
         this.photo = photo;
         return this;
     }

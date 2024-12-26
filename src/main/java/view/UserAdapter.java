@@ -1,8 +1,8 @@
 package view;
 
-import model.user;
+import model.User;
 
 public interface UserAdapter<T> {
-    user from (T object);
+    User from (T object);
 
 }
